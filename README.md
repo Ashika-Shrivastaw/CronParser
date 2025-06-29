@@ -4,7 +4,7 @@ A simple command‑line Java application that parses a standard 5‑field cron e
 
 # Project Overview
 1. CronStringFields - Defines cron fields (minute, hour, day of month, month, day of week) and their valid numeric ranges.
-2. CronParser - main entry point. Parses arguments, runs tests or prints output.
+2. CronParser - Main entry point. Parses arguments, runs tests or prints output.
 3. GenerateCronOutput - Contains logic to expand expressions (*, 1-5, */15, 1,15) into sorted lists of integers.
 4. ParseCronExp - Formats and prints the expanded values alongside their field names.
 
